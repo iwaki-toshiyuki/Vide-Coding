@@ -17,6 +17,7 @@
 # 制約事項
  
 - 純粋なHTML/CSS/JavaScriptのみを使用（フレームワークなし）
+<!-- Core Web VitalsとはGoogleが提唱するWebサイトのユーザー体験（UX）を評価するための3つの主要指標（LCP, INP, CLS）の総称-->
 - Core Web Vitals を意識し、見やすく使いやすい UI/UX 設計にすること
 - index.html ファイルを開くだけで閲覧できるようにする
  
