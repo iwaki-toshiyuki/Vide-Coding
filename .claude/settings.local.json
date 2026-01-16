@@ -36,7 +36,8 @@
       "Bash(npm run test:*)",
       "Bash(npm run build:*)",
       "Bash(npm ls:*)",
-      "Bash(npx:*)"
+      "Bash(npx:*)",
+      "Bash(open:*)"
     ],
     "deny": [
       "Bash(sudo:*)",

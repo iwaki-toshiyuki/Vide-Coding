@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="インタラクティブなパーティクルアニメーションを持つポートフォリオサイト">
+    <title>Particle Portfolio</title>
+    <!-- 外部CSSファイルの読み込み -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- グラデーション背景 -->
+    <div class="background"></div>
+
+    <!-- パーティクル描画用キャンバス -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- ナビゲーション -->
+    <nav>
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ヒーローセクション -->
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>創造性とテクノロジーの融合</p>
+            <a href="#about" class="cta-button">詳しく見る</a>
+        </div>
+    </section>
+
+    <!-- Aboutセクション -->
+    <section id="about">
+        <h2 class="section-title fade-in">About Me</h2>
+        <div class="about-content fade-in">
+            <p>
+                こんにちは、Webデベロッパーです。<br>
+                美しいデザインと使いやすいインターフェースを追求し、<br>
+                ユーザー体験を最優先に考えた開発を心がけています。<br>
+                最新の技術トレンドを常に学び、<br>
+                クリエイティブなソリューションを提供します。
+            </p>
+        </div>
+    </section>
+
+    <!-- Skillsセクション -->
+    <section id="skills">
+        <h2 class="section-title fade-in">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card fade-in">
+                <div class="skill-icon">🎨</div>
+                <h3>Frontend</h3>
+                <p>HTML, CSS, JavaScript, React, Vue.js</p>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon">⚙️</div>
+                <h3>Backend</h3>
+                <p>Node.js, Python, PHP, MySQL</p>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon">🎯</div>
+                <h3>Design</h3>
+                <p>Figma, Adobe XD, UI/UX Design</p>
+            </div>
+            <div class="skill-card fade-in">
+                <div class="skill-icon">🚀</div>
+                <h3>DevOps</h3>
+                <p>Docker, AWS, Git, CI/CD</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Worksセクション -->
+    <section id="works">
+        <h2 class="section-title fade-in">Works</h2>
+        <div class="works-grid">
+            <div class="work-card fade-in">
+                <div class="work-image">🌐</div>
+                <div class="work-info">
+                    <h3>ECサイト</h3>
+                    <p>モダンなデザインのショッピングプラットフォーム</p>
+                </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-image">📱</div>
+                <div class="work-info">
+                    <h3>モバイルアプリ</h3>
+                    <p>直感的なUIのタスク管理アプリケーション</p>
+                </div>
+            </div>
+            <div class="work-card fade-in">
+                <div class="work-image">💻</div>
+                <div class="work-info">
+                    <h3>ダッシュボード</h3>
+                    <p>データ可視化のための管理画面</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contactセクション -->
+    <section id="contact">
+        <h2 class="section-title fade-in">Contact</h2>
+        <div class="contact-content fade-in">
+            <p>お仕事のご依頼・ご相談はお気軽にどうぞ</p>
+            <div class="contact-links">
+                <a href="mailto:example@email.com" class="contact-link">
+                    ✉️ Email
+                </a>
+                <a href="https://github.com" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    🐙 GitHub
+                </a>
+                <a href="https://twitter.com" class="contact-link" target="_blank" rel="noopener noreferrer">
+                    🐦 Twitter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p>&copy; 2024 Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- 外部JavaScriptファイルの読み込み -->
+    <script src="script.js"></script>
+</body>
+</html>
