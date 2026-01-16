@@ -1,0 +1,62 @@
+/* Todo追加フォームのスタイル */
+.todo-form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+/* テキスト入力フィールド */
+.todo-input {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 12px;
+  background: #ffffff;
+  color: #1e293b;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.todo-input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.todo-input::placeholder {
+  color: #94a3b8;
+}
+
+/* 追加ボタン */
+.todo-add-button {
+  padding: 14px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.todo-add-button:hover:not(:disabled) {
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.4);
+}
+
+.todo-add-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 480px) {
+  .todo-form {
+    flex-direction: column;
+  }
+
+  .todo-add-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,23 @@
+/* Todoリストのスタイル */
+.todo-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 空状態の表示 */
+.todo-empty {
+  text-align: center;
+  padding: 48px 24px;
+  color: #64748b;
+}
+
+.todo-empty p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.todo-empty-hint {
+  margin-top: 8px !important;
+  font-size: 14px !important;
+  color: #94a3b8;
+}
