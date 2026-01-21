@@ -7,7 +7,7 @@ import { MAX_CHARACTERS } from '@/constants/config'
 const apiKey = process.env.GEMINI_API_KEY
 
 // 使用するモデル
-const MODEL_NAME = 'gemini-2.0-flash'
+const MODEL_NAME = 'gemini-2.5-flash'
 
 // リトライ設定
 const MAX_RETRIES = 3
